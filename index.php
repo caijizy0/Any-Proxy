@@ -1,5 +1,5 @@
 <?php
-$pass = "web";//web为默认密码，自行修噶
+$pass = "caijizuishuai";//web为默认密码，自行修噶
 if (isset($_POST['Any-Proxy'])) {
     setcookie("Any-Proxy", $_POST['Any-Proxy'], time()+3600*24*366);
     header("Refresh:0");
